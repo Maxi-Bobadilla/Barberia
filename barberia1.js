@@ -20,12 +20,12 @@ function confirmarReserva() {
   caja2.innerHTML = "";
   const mensaje = document.createElement("h2");
   mensaje.textContent = `Perfecto! tu hora ha sido reservada a las ${hora}`;
-  mensaje.style.color = "white";
+  mensaje.style.color = "black";
   mensaje.style.fontSize = "24px";
   caja2.appendChild(mensaje);
 
   // Aplicar estilo de fondo y centrado
-  caja2.style.backgroundColor = "orange";
+  caja2.style.backgroundColor = "white";
   caja2.style.color = "white";
   caja2.style.display = "flex";
   caja2.style.justifyContent = "center";
