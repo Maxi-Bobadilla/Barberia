@@ -13,6 +13,7 @@ body {
   font-family: "Antic Slab", serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #000;
 }
 
 img {
@@ -21,8 +22,8 @@ img {
 }
 
 header {
-  background: #f7efde;
-  color: brown;
+  background: #000000;
+  color: rgb(188, 71, 71);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -35,7 +36,7 @@ header h1 {
 }
 
 .contactoheader{
-  color: rgb(5, 5, 104);
+  color: rgb(206, 206, 255);
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 15px;
@@ -43,7 +44,7 @@ header h1 {
 }
 
 .contactoheader:hover{
-  background-color: rgb(252, 233, 207);
+  background-color: rgb(74, 74, 74);
   border-radius: 10%;
 
 }
@@ -79,6 +80,7 @@ nav a {
   margin: 60px auto;
   max-width: 1000px;
   padding: 0 20px;
+  background-color: #000;
 }
 
 .card {
@@ -93,7 +95,7 @@ nav a {
 
 .card:hover {
   transform: translateY(-5px);
-  background-color: rgba(187, 195, 249, 0.287);
+  background-color: rgb(212, 217, 255);
 }
 
 .card h3 {
@@ -107,14 +109,15 @@ nav a {
 
 
 .contacto {
-  background: #fff;
+  background: #000000;
   padding: 60px 20px;
   text-align: center;
+
 }
 
 .contacto h2 {
   font-size: 2.5em;
-  color: #000;
+  color: #e9c9c9;
   margin-bottom: 30px;
 }
 
@@ -129,7 +132,7 @@ nav a {
 .contacto label {
   text-align: left;
   font-weight: bold;
-  color: #333;
+  color: #9292c5;
 }
 
 .contacto input,
@@ -143,7 +146,7 @@ nav a {
 }
 
 .contacto button {
-  background-color: #000;
+  background-color: #a64e4e;
   color: #fff;
   border: none;
   padding: 14px;
@@ -154,12 +157,12 @@ nav a {
 }
 
 .contacto button:hover {
-  background-color: #444;
+  background-color: #d13a3a;
 }
 
 footer {
-  background: #FDF5E6;
-  color: darkblue;
+  background: #a64e4e;
+  color: rgb(182, 182, 255);
   text-align: center;
   padding: 20px;
   margin-top: 60px;
