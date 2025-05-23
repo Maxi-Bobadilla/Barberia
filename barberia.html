@@ -9,10 +9,11 @@
   </head>
   <body>
     <header>
-      <img src="/logoact.png" alt="" />
+      <img src="/LogoCorteCh.png" alt="" />
       <h1 style="position: relative; left: 70px">Corte Chileno</h1>
       <nav>
-        <a href="#contacto" class="contactoheader">Contacto</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </header>
 
@@ -23,7 +24,7 @@
       <h1>Horas Disponibles</h1>
       <p>Tenemos horas desde las 10:00 a las 16:00 hrs.</p>
       <h5>Barberos</h5>
-      <select name="" id="">
+      <select name="" id="barberos" onchange="actualizarTituloReserva()">
         <option value="">Marcelo Hérnandez</option>
         <option value="">Adolf Mitchel</option>
         <option value="">Eduardo Salazar</option>
@@ -34,7 +35,7 @@
 
     <!-- Caja 2: Reserva Tu Hora (oculto) -->
     <div class="card" id="caja2" style="display: none;">
-      <h2>Reserva Tu Hora</h2>
+      <h2 id="tituloReserva">Reserva Tu Hora</h2>
       <select id="horaSeleccionada">
         <option>Horas disponibles</option>
         <option>10:00</option>

@@ -4,6 +4,8 @@ function reemplazarCaja() {
 
   caja1.style.display = "none";
   caja2.style.display = "block";
+
+  actualizarTituloReserva();
 }
 
 function confirmarReserva() {
@@ -31,4 +33,14 @@ function confirmarReserva() {
   caja2.style.justifyContent = "center";
   caja2.style.alignItems = "center";
   caja2.style.height = "200px";
+}
+
+function actualizarTituloReserva() {
+  const select = document.getElementById("barberos");
+  const barbero = select.options[select.selectedIndex].text;
+  const titulo = document.getElementById("tituloReserva");
+
+  if (titulo) {
+    titulo.textContent = "Reserva Tu Hora con: " + barbero;
+  }
 }
