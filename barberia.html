@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corte Chileno</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <header>
+      <img src="/LogoCorteCh.png" alt="" />
+      <h1 style="position: relative; left: 70px">Corte Chileno</h1>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section id="servicios" class="services">
+  <div class="container">
+    <!-- Caja 1: Horas Disponibles -->
+    <div class="card" id="caja1">
+      <h1>Horas Disponibles</h1>
+      <p>Tenemos horas desde las 10:00 a las 16:00 hrs.</p>
+      <p style="padding-top: 15px;"><strong>Reserva Ya!!!!!!</strong></p>
+      <button class="cta-button" onclick="reemplazarCaja()">Ver Horarios</button>
+    </div>
+
+    <!-- Caja 2: Reserva Tu Hora (oculto) -->
+    <div class="card" id="caja2" style="display: none;">
+      <h2>Reserva Tu Hora</h2>
+      <select id="horaSeleccionada">
+        <option>Horas disponibles</option>
+        <option>10:00</option>
+        <option>11:00</option>
+        <option>12:00</option>
+        <option>13:00</option>
+        <option>14:00</option>
+        <option>15:00</option>
+        <option>16:00</option>
+      </select>
+      <br>
+      <button class="cta-button" onclick="confirmarReserva()">Reservar</button>
+    </div>
+  </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Barbería El Estilo | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="barberia1.js"></script>
+  </body>
+</html>
