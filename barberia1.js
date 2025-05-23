@@ -25,7 +25,7 @@ function confirmarReserva() {
   caja2.appendChild(mensaje);
 
   // Aplicar estilo de fondo y centrado
-  caja2.style.backgroundColor = "white";
+  caja2.style.backgroundColor = "#9292c5";
   caja2.style.color = "white";
   caja2.style.display = "flex";
   caja2.style.justifyContent = "center";

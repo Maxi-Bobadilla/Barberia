@@ -91,6 +91,8 @@ nav a {
   padding: 30px;
   text-align: center;
   transition: transform 0.3s ease;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .card:hover {
